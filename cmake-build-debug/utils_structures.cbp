@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/AssemblerProj/utils_structures/binaryTree.cpp">
+			<Option target="utils_structures"/>
+		</Unit>
+		<Unit filename="D:/AssemblerProj/utils_structures/binaryTree.h">
+			<Option target="utils_structures"/>
+		</Unit>
 		<Unit filename="D:/AssemblerProj/utils_structures/main.cpp">
 			<Option target="utils_structures"/>
 		</Unit>

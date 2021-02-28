@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/utils_structures.dir/binaryTree.cpp.obj"
   "CMakeFiles/utils_structures.dir/main.cpp.obj"
   "libutils_structures.dll.a"
   "utils_structures.exe"

@@ -142,6 +142,33 @@ utils_structures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\utils_structures.dir\build.make CMakeFiles/utils_structures.dir/build
 .PHONY : utils_structures/fast
 
+binaryTree.obj: binaryTree.cpp.obj
+
+.PHONY : binaryTree.obj
+
+# target to build an object file
+binaryTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\utils_structures.dir\build.make CMakeFiles/utils_structures.dir/binaryTree.cpp.obj
+.PHONY : binaryTree.cpp.obj
+
+binaryTree.i: binaryTree.cpp.i
+
+.PHONY : binaryTree.i
+
+# target to preprocess a source file
+binaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\utils_structures.dir\build.make CMakeFiles/utils_structures.dir/binaryTree.cpp.i
+.PHONY : binaryTree.cpp.i
+
+binaryTree.s: binaryTree.cpp.s
+
+.PHONY : binaryTree.s
+
+# target to generate assembly for a file
+binaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\utils_structures.dir\build.make CMakeFiles/utils_structures.dir/binaryTree.cpp.s
+.PHONY : binaryTree.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... utils_structures
+	@echo ... binaryTree.obj
+	@echo ... binaryTree.i
+	@echo ... binaryTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

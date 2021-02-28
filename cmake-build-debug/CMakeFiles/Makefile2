@@ -93,12 +93,12 @@ clean: CMakeFiles/utils_structures.dir/clean
 CMakeFiles/utils_structures.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\utils_structures.dir\build.make CMakeFiles/utils_structures.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\utils_structures.dir\build.make CMakeFiles/utils_structures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\AssemblerProj\utils_structures\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target utils_structures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\AssemblerProj\utils_structures\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target utils_structures"
 .PHONY : CMakeFiles/utils_structures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/utils_structures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AssemblerProj\utils_structures\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\AssemblerProj\utils_structures\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/utils_structures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\AssemblerProj\utils_structures\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/utils_structures.dir/rule
