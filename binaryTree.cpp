@@ -5,8 +5,8 @@
 #include <iostream>
 #include "binaryTree.h"
 
-
-void insertTree(binaryTree **tree, binaryTree *parent, int item){
+template <typename T>
+void insertTree(binaryTree **tree, binaryTree *parent, T item){
     if(*tree == nullptr){
         auto *t = static_cast<binaryTree *>(malloc(sizeof(struct binaryTree)));
         t->item = item;
@@ -29,8 +29,7 @@ void printTree( binaryTree *tree,std::string s){
     if(tree->left!= nullptr){
         s.append("l");
         printTree(tree->left,s);
-        s.pop_back();
-    }
+        s.pop_back();    }
     if(tree->right!= nullptr){
         s.append("r");
         printTree(tree->right,s);

@@ -14,5 +14,6 @@ struct binaryTree{
 
 void printTree( binaryTree *tree,std::string s);
 
-void insertTree(binaryTree **tree, binaryTree *parent, int item);
+template <typename T>
+void insertTree(binaryTree **tree, binaryTree *parent, T item);
 #endif //UTILS_STRUCTURES_BINARYTREE_H
